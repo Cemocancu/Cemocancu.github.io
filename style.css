@@ -1,0 +1,127 @@
+/* General Body and Container Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9fafb;
+    padding-top: 90px;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Header Specifics */
+header {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Navigation Links */
+nav a {
+    position: relative;
+    padding-bottom: 0.25rem;
+}
+
+nav a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #3b82f6;
+    transition: width 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* Mobile Menu Button Animation */
+#mobile-menu-button {
+    transition: transform 0.3s ease-in-out;
+}
+
+#mobile-menu-button.active i {
+    transform: rotate(90deg);
+}
+
+/* Section Headings */
+h2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3b82f6;
+    border-radius: 2px;
+}
+
+.product-card,
+.news-item {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.product-card:hover,
+.news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+input:focus,
+textarea:focus {
+    border-color: #3b82f6;
+}
+
+button[type="submit"] {
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer a {
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #60a5fa;
+}
+
+/* For smaller screens, ensure padding and text sizes are appropriate */
+@media (max-width: 767px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
+
+.active-flag-button {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+#products-dropdown-menu ul {
+    list-style: none;
+}
+
+.dropdown-active {
+    color: #3b82f6;
+}

@@ -1,0 +1,16 @@
+- fiyat ekle
+- product yazisi uzerine gelince mavi olmuyor
+
+CEMIN EKLERI
+-----------
++ 14- en son MINIFICATION ve OBSFUCATION yapilmasi gerekli. MINIFICATION html, css ve js. OBSFUCATION sadece js icin. 
+Ardindan bu islemlerden gecmis doyalar IT'ye verilecek.
+Online tool'lar var bunlari ucretsiz yapan.
+
+25 - bir tane FE tarafinda JAVASCRIPT MAPS API icin MAPS API KEY 
+Bu iki API key'lere uygun restrictions'lar eklenmeli CLOUD ekraninda \
+
++ 27 - (NGINX) en son her sey bitince testleri yaparken nginx kurarak static bir sekilde https serve etmeye calis, .html'leri silmek icin .htaccess gibi bir dosya kullaniliyormus.
+29 - front end icin yazmis oldugum nginx .conf dosyasini ilet, iletirken root kismindaki absolute path'i sil
+30 - kendim en son serve edip denerken minification ve obsfucation yapip denemeliyim
+31- Lighthouse bas

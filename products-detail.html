@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="product-title-meta">ÇELİKİŞ - Product</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 90px;
+        }
+
+        .thumbnail.active {
+            border-color: #3b82f6;
+            border-width: 2px;
+        }
+
+        #zoom-container {
+            position: relative;
+            overflow: hidden;
+            cursor: zoom-in;
+        }
+
+        #magnifying-glass {
+            position: absolute;
+            border: 1px solid #ccc;
+            background-repeat: no-repeat;
+            background-color:  rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transition: opacity 0.2s ease-in-out;
+            pointer-events: none;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body id="product-detail" class="bg-gray-50 text-gray-800">
+    <div id="header-placeholder"></div>
+
+    <main class="container mx-auto px-4 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <div id="zoom-container"
+                    class="w-full h-[450px] bg-black flex items-center justify-center rounded-lg shadow-lg mb-4 overflow-hidden">
+                    <img id="main-product-image" src="" alt="Product Image" class="max-w-full max-h-full"
+                        style="object-fit: contain;" loading="lazy">
+                </div>
+                <div id="thumbnail-gallery" class="flex space-x-2 overflow-x-auto">
+                </div>
+            </div>
+
+            <div>
+                <h1 id="product-title" class="text-3xl md:text-4xl font-bold text-gray-900 mb-4"></h1>
+                <h2 class="text-2xl font-semibold text-gray-900 mb-4"></h2>
+                <div id="product-description" class="text-gray-700 leading-relaxed space-y-4">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- Whatsapp Floatin Button -->
+    <div id="whatsapp-button-placeholder"></div>
+
+    <script src="js/common.js"></script>
+    <script src="js/products-detail.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<header class="bg-white shadow-md py-4 fixed top-0 w-full z-50">
+    <div class="container mx-auto flex justify-between items-center px-4">
+        <div class="flex items-center">
+            <img src="https://placehold.co/60x60/007bff/ffffff?text=LOGO" alt="Company Logo"
+                class="h-12 w-12 rounded-full mr-3" loading="lazy">
+            <a href="home.html" class="text-2xl font-bold text-gray-900">ÇELİKİŞ</a>
+        </div>
+
+        <nav class="hidden md:flex space-x-8">
+            <a href="home.html" id="nav-home"
+                class="text-gray-600 hover:text-blue-600 font-medium transition duration-300 ease-in-out">Home</a>
+            <a href="about.html" id="nav-about"
+                class="text-gray-600 hover:text-blue-600 font-medium transition duration-300 ease-in-out">About
+                Us</a>
+            <div id="products-dropdown-container" class="relative">
+                <div id="products-dropdown-toggle"
+                    class="text-gray-600 hover:text-blue-600 font-medium transition duration-300 ease-in-out flex items-center cursor-pointer">
+                    <a href="products.html" id="nav-products" class="p-0 text-gray-600">Products</a>
+                    <span id="products-dropdown-icon" class="ml-2 transition-transform duration-300 ease-in-out">
+                        <i class="fas fa-chevron-down text-xs"></i>
+                    </span>
+                </div>
+                <div id="products-dropdown-menu"
+                    class="absolute left-0 mt-2 w-60 bg-white border border-gray-200 rounded-md shadow-lg py-1 z-20 opacity-0 invisible transition-all duration-300 ease-in-out">
+                    <ul class="list-none m-0 p-0">
+                        <li>
+                            <a href="../nail-making.html" id="header-product-title-1"
+                                class="block px-4 py-2 text-gray-800 hover:bg-gray-100 transition duration-200">Çivi
+                                İmalat Makinesi</a>
+                        </li>
+                        <li>
+                            <a href="../threadrolling.html" id="header-product-title-2"
+                                class="block px-4 py-2 text-gray-800 hover:bg-gray-100 transition duration-200">Ovalama
+                                Makinesi</a>
+                        </li>
+                        <li>
+                            <a href="../nail-collating.html" id="header-product-title-3"
+                                class="block px-4 py-2 text-gray-800 hover:bg-gray-100 transition duration-200">Tele
+                                Dizme Makinesi</a>
+                        </li>
+                        <li>
+                            <a href="../wire-drawing.html" id="header-product-title-4"
+                                class="block px-4 py-2 text-gray-800 hover:bg-gray-100 transition duration-200">Tel
+                                Çekme Makinesi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="contact.html" id="nav-contact"
+                class="text-gray-600 hover:text-blue-600 font-medium transition duration-300 ease-in-out">Contact</a>
+        </nav>
+
+
+        <div class="md:hidden flex items-center space-x-4">
+            <a href="documents/celikis-katalog.pdf" target="_blank" id="mobile-e-katalog-button"
+                class="inline-block bg-red-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-red-700 transition duration-300 ease-in-out">
+                E-Katalog
+            </a>
+        </div>
+
+        <div class="hidden md:flex items-center space-x-4">
+            <a href="documents/celikis-katalog.pdf" target="_blank" id="e-katalog-button"
+                class="inline-block bg-red-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-red-700 transition duration-300 ease-in-out">
+                E-Katalog
+            </a>
+
+            <button id="lang-en"
+                class="p-1 rounded-full border-2 border-transparent hover:border-blue-500 transition duration-200">
+                <img src="images/us.png" alt="English Flag" class="h-6 w-6 rounded-full object-cover" loading="lazy">
+            </button>
+            <button id="lang-tr"
+                class="p-1 rounded-full border-2 border-transparent hover:border-blue-500 transition duration-200">
+                <img src="images/tr.png" alt="Turkish Flag" class="h-6 w-6 rounded-full object-cover" loading="lazy">
+            </button>
+        </div>
+
+        <button id="mobile-menu-button" class="md:hidden text-gray-600 hover:text-blue-600 focus:outline-none">
+            <i class="fas fa-bars text-2xl"></i>
+        </button>
+    </div>
+
+
+
+    <nav id="mobile-menu" class="md:hidden bg-white px-4 pt-2 pb-4 border-t border-gray-200 hidden">
+        <a href="home.html" id="mobile-nav-home"
+            class="block py-2 text-gray-600 hover:text-blue-600 font-medium transition duration-300 ease-in-out border-b border-gray-100">Home</a>
+        <a href="about.html" id="mobile-nav-about"
+            class="block py-2 text-gray-600 hover:text-blue-600 font-medium transition duration-300 ease-in-out border-b border-gray-100">About
+            Us</a>
+        <a href="products.html" id="mobile-nav-products"
+            class="block py-2 text-gray-600 hover:text-blue-600 font-medium transition duration-300 ease-in-out border-b border-gray-100">Products</a>
+        <a href="contact.html" id="mobile-nav-contact"
+            class="block py-2 text-gray-600 hover:text-blue-600 font-medium transition duration-300 ease-in-out border-b border-gray-100">Contact</a>
+
+        <div class="flex items-center space-x-4">
+            <button id="mobile-lang-en"
+                class="p-1 rounded-full border-2 border-transparent hover:border-blue-500 transition duration-200">
+                <img src="images/us.png" alt="English Flag" class="h-6 w-6 rounded-full object-cover" loading="lazy">
+            </button>
+            <button id="mobile-lang-tr"
+                class="p-1 rounded-full border-2 border-transparent hover:border-blue-500 transition duration-200">
+                <img src="images/tr.png" alt="Turkish Flag" class="h-6 w-6 rounded-full object-cover" loading="lazy">
+            </button>
+        </div>
+    </nav>
+</header>
