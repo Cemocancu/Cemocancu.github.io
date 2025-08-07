@@ -30,11 +30,25 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // About Us Page
             "about-us-heading": "About ÇELİKİŞ",
-            "about-us-p1": "ÇELİKİŞ is a leading manufacturer and supplier of advanced industrial machinery, dedicated to providing high-quality, reliable, and innovative solutions for various sectors. With years of experience, we have built a reputation for excellence in engineering, production, and customer service.",
-            "about-us-p2": "Our commitment to research and development ensures that our products incorporate the latest technological advancements, offering superior performance and efficiency. We specialize in a wide range of machinery, including construction equipment, agricultural machinery, mining equipment, and specialized industrial tools.",
-            "about-us-p3": "At Yanhuang, we believe in fostering long-term partnerships with our clients by understanding their unique needs and delivering tailored solutions. Our team of skilled professionals is passionate about innovation and dedicated to ensuring customer satisfaction through unparalleled support and after-sales service.",
-            "about-us-p4": "Our vision is to be the global leader in industrial machinery, recognized for our commitment to quality, innovation, and customer success. We strive to continuously improve our processes and products, contributing to the progress of industries worldwide.",
-            "about-us-p5": "Our mission is to empower businesses with cutting-edge machinery that enhances productivity, reduces operational costs, and ensures safety. We achieve this through continuous innovation, rigorous quality control, and a customer-centric approach that prioritizes your success.",
+            "about-us-p1": `Our company, an expert in its field, was founded in 2001 to meet domestic and international needs for steel wire, 
+                        wire products, and machinery equipment. We have embarked on our industrial journey, drawing on years of knowledge, 
+                        experience, and expertise, and continue to rapidly monitor sectoral changes and develop solutions.`,
+            "about-us-p2": `Initially, we began selling steel wire and its products with an annual capacity of 5,000 tons. 
+                        Later, in line with evolving market conditions, we added spring wire machines, forming machines, 
+                        spring grinding machines, and heat treatment furnaces to our product range, as well as wire-strip 
+                        and forming machines capable of simultaneously bending, crushing, shaping, drilling, welding, and joining. 
+                        To provide high-quality service, we select our suppliers from among the world's leading industrialized countries, 
+                        producing quality-certified materials in accordance with international standards. 
+                        This enables our customers to achieve more efficient results in the R&D, planning, and production stages.`,
+            "about-us-p3": `Since its founding, our company has been constantly evolving and growing alongside our group companies. 
+                        With its young, research-oriented and innovative team, today we provide flexible solutions to our customers 
+                        in every field of the steel wire industry through our domestic and international dealerships and representatives.`,
+            "about-us-p4": `Our team, embracing the win-win policy of the new century, rather than the ever-easy approach of old-school business 
+                        approaches and systems, regularly visits our customers face-to-face in Turkey and 
+                        conducts factory visits abroad, establishing a solid business partnership between the manufacturer and 
+                        the end customer in terms of price, quality, delivery time, and technological advancements. 
+                        Our greatest trust and asset in this regard is our customers' expectations of us and the continuity of our partnership. 
+                        To maintain this continuity, we carefully screen our suppliers and do not even offer machinery we cannot stand behind.`,
 
             // Products Page
             "products-heading": "Our Products",
@@ -108,11 +122,32 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // About Us Page
             "about-us-heading": "ÇELİKİŞ Hakkında",
-            "about-us-p1": "ÇELİKİŞ, çeşitli sektörler için yüksek kaliteli, güvenilir ve yenilikçi çözümler sunmaya adanmış lider bir gelişmiş endüstriyel makine üreticisi ve tedarikçisidir. Yılların deneyimiyle, mühendislik, üretim ve müşteri hizmetlerinde mükemmellik konusunda bir itibar kazandık.",
-            "about-us-p2": "Araştırma ve geliştirmeye olan bağlılığımız, ürünlerimizin en son teknolojik gelişmeleri içermesini, üstün performans ve verimlilik sunmasını sağlar. İnşaat ekipmanları, tarım makineleri, madencilik ekipmanları ve özel endüstriyel araçlar dahil geniş bir makine yelpazesinde uzmanız.",
-            "about-us-p3": "Yanhuang olarak, müşterilerimizin benzersiz ihtiyaçlarını anlayarak ve özel çözümler sunarak onlarla uzun vadeli ortaklıklar kurmaya inanıyoruz. Yetenekli profesyonellerden oluşan ekibimiz, yeniliğe tutkuyla bağlıdır ve eşsiz destek ve satış sonrası hizmetle müşteri memnuniyetini sağlamaya adamıştır.",
-            "about-us-p4": "Vizyonumuz, kaliteye, yeniliğe ve müşteri başarısına olan bağlılığımızla tanınan endüstriyel makinelerde küresel lider olmaktır. Dünya genelindeki endüstrilerin ilerlemesine katkıda bulunarak süreçlerimizi ve ürünlerimizi sürekli iyileştirmeye çalışıyoruz.",
-            "about-us-p5": "Misyonumuz, üretkenliği artıran, işletme maliyetlerini azaltan ve güvenliği sağlayan son teknoloji makinelerle işletmeleri güçlendirmektir. Bunu, sürekli yenilik, titiz kalite kontrol ve başarınızı ön planda tutan müşteri odaklı bir yaklaşımla başarıyoruz.",
+            "about-us-p1": `Konusunda uzman bir kuruluş olan firmamız 2001 yılında yurtiçi ve yurtdışı çelik tel, çelik tel, tel 
+            ürünleri ve makine ekipmanları konusunda ihtiyaçların karşılanması amacı ile kurulmuştur.
+                        Daha önceki yıllara dayanan bilgi, birikim ve deneyimlerin ışığı altında başlayan sanayi
+                        yolculuğumuza sektörel değişimleri anında takip ederek ve çözümler üreterek hızlı adımlarla
+                        devam etmekteyiz.`,
+            "about-us-p2": `Başlangıçta, yılda 5000 ton kapasite ile çelik tel ve ürünleri ile satışa başlamış olup daha
+                        sonra gelişen pazar şartlarına uygun olarak ürün yelpazemize yaylık tel makinaları, form
+                        makinaları, yay taşlama makinaları ve ısıl işlem fırınlarının yanı sıra en son olarak bükme,
+                        ezme, şekillendirme, delme, kaynak ve birleştirmeyi aynı anda yapabilen tel-şerit ve form
+                        makinalarınıda eklemiş bulunmaktayız. Yüksek kalitede hizmet verebilmek için tedarikçilerimizi
+                        uluslararası standartlara uygun olarak kalite sertifikalı malzeme üreten ve dünyanın sayılı
+                        endüstrileşmiş ülkelerindeki kuruluşlardan seçmekteyiz. Bu da müşterilerimizin ar-ge, planlama
+                        ve üretim aşamalarında daha verimli sonuçlar almasını sağlamaktadır.`,
+            "about-us-p3": `Grup firmamız ile birlikte kurulduğundan bu yana sürekli gelişerek, yenilenerek büyüyen firmamız
+                        konusunda araştırmacı, yenilikçi genç kadrosuyla bugün yurtdışı ve yurtiçi bayilik ve
+                        temsilcilikleri ile çelik tel sanayinin her alanında müşterilerine uygun esnek çözümler
+                        sağlamaktadır.`,
+            "about-us-p4": `Eski tip ticaret anlayış ve sistemlerinin hep bana kolaycılığının dışında yeni yüzyılın
+                        kazan-kazan politikasının benimseyen kadromuz, yurtiçinde müşterilerimizi sürekli yüz yüze
+                        ziyaret ederek, yurtdışında da fabrika ziyaretlerinde bulunarak üretici ve son müşteri arasında
+                        fiyat, kalite, termin ve teknolojik gelişimler yönünde sağlam bir iş ortaklığı
+                        gerçekleştirmektedir. Bizim bu konudaki en büyük güvenimiz ve sermayemiz, müşterilerimizin bizim
+                        için düşündükleri ve çalışma ortaklığımızın sürekliliğidir. Bu sürekliliği korumak için ise
+                        tedarikçilerimizi ince eleyip sık dokuyoruz ve arkasında duramayacağımız makinenin
+                        teklifini dahi etmiyoruz.`,
+
 
             // Products Page
             "products-heading": "Ürünlerimiz",
